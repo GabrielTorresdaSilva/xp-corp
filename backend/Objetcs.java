@@ -9,54 +9,50 @@ public class Connection{
 
 
 
-    
-}
-
-
-
-
-
-
-public class Colaborador{
-    String nome;
-    String endereco;
-    String cargo;
-    String empresa;
-    int xp;
-    int nivel;
-    int cpf;
-    
-
-
-    public Main(String nome, String endereco, String cargo, String empresa, int xp, int nivel, int cpf)(){
-        nome = Nome 
-        endereco = Endereco
     }
 
-    public static void main(String[] args) {
+
+    public class Colaborador{
+        String nome;
+        String endereco;
+        String cargo;
+        String empresa;
+        int xp;
+        int nivel;
+        int cpf;
         
-    }
-}
-public class Gestor{
-    String nome;
-    String cargo;
-    String empresa;
-    String 
-
-    int xp_empresa;
 
 
+        public Main(String nome, String endereco, String cargo, String empresa, int xp, int nivel, int cpf)(){
+            nome = Nome 
+            endereco = Endereco
+        }
 
-
-    public Main(String nome, String cargo, String empresa, ){
-
-        
+        public static void main(String[] args) {
+            
+        }
     }
 
+    public class Gestor{
+        String nome;
+        String cargo;
+        String empresa;
+        String 
 
-    public static void main(String[] args) {
-        
-    }
+        int xp_empresa;
 
 
-}
+
+
+        public Main(String nome, String cargo, String empresa, ){
+
+            
+        }
+
+
+        public static void main(String[] args) {
+            
+        }
+
+
+    }  
