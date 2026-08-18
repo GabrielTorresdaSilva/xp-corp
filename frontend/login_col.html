@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela1</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;500;600;700&display=swap");
+
+      :root {
+        --off-white: #f8fafc;
+        --azul-sereno: #4a90e2;
+        --azul-escuro: #1e3a8a;
+        --verde-menta: #78c2ad;
+        --roxo-suave: #9b59b6;
+        --grafite-profundo: #1f2937;
+        --cinza-suave: #64748b;
+        --cinza-claro: #e2e8f0;
+        --sombra: 0 20px 45px rgba(15, 23, 42, 0.1);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        padding: 40px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background: linear-gradient(135deg, #f8fbff, #eef5ff);
+        color: var(--grafite-profundo);
+      }
+
+      body h1,
+      body p {
+        width: 100%;  
+        text-align: center;
+      }
+
+      body h1 {
+        color: var(--grafite-profundo);
+        font-size: clamp(2rem, 3vw, 3rem);
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        margin-top: 8px;
+      }
+
+      body h1:first-of-type {
+        font-size: clamp(1.5rem, 2vw, 2.1rem);
+        margin-bottom: 4px;
+        color: var(--azul-escuro);
+      }
+
+      body p {
+        color: var(--cinza-suave);
+        font-size: 1rem;
+        margin: -6px 0 8px;
+      }
+
+      .logo {
+        width: 100%;
+        max-width: 110px;
+        height: auto;
+        display: block;
+        margin: 0 auto 10px;
+        filter: drop-shadow(0 10px 24px rgba(74, 144, 226, 0.18));
+      }
+    </style>
+  </head>
+
+  <body>
+    <img src="logo.png" />
+    <h1>Login</h1>
+
+    <div class="conteiner">
+        <div class="input-nome">
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+            <label for="nome">Nome Completo:</label>
+        </div>
+
+        <div class="input-email">
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required />
+            <label for="email">E-mail:</label>
+        </div>
+
+        <div class="input-senha">
+            <input type="senha" id="senha" name="senha" placeholder="Digite sua senha" required />
+            <label for="senha">Senha:</label>
+        </div>
+        
+    </div>
+  </body>
+  <a href="#">Voltar<a>
+</html>
