@@ -1,0 +1,9 @@
+    String Nome_Usuario;
+    Int CPF_Usuario;
+
+
+
+    public Main(String nome, int Cpf){
+        Cpf = CPF_Usuario
+        nome = Nome_Usuario
+    }

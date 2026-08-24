@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS colaborador (
 );
 
 -- 3. Tabela de Feedbacks
-CREATE TABLE IF NOT EXISTS feedbacks (
+CREATE TABLE IF NOT EXISTS feedbacks (  
     id_feedbacks INT AUTO_INCREMENT PRIMARY KEY,
     comentarios VARCHAR(255),
     data_envio DATETIME DEFAULT CURRENT_TIMESTAMP
