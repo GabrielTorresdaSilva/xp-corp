@@ -8,42 +8,36 @@ public class Main{
 
     
    
-
-
     Public static void main(){
-
-
 
     }
 
 }
 public class Banco{
- public class Main {
-    int modelYear;
-    String modelName;
- }
+
+  int modelYear;
+  String modelName;
+
   public Main(int year, String name) {
     modelYear = year;
     modelName = name;
   }
 }
 public class Gestor{
- public class Main {
-    int modelYear;
-    String modelName;
- }
+  String modelName;
+
   public Main(int year, String name) {
     modelYear = year;
     modelName = name;
   }
 }
 public class Colaborador{
- public class Main {
-    int modelYear;
-    String modelName;
- }
-  public Main(int year, String name) {
-    modelYear = year;
+
+  String modelName;
+  Int 
+
+  public Main(String name) {
+    
     modelName = name;
   }
 }
